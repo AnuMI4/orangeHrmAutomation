@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
 
     <listeners>
-        <listener class-name="extentReportListener.extentReport"></listener>
+        <listener class-name="extentReportListener.extentReport"/>
     </listeners>
     
     <test name="orangehrmTestCases">
