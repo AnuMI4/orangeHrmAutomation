@@ -20,13 +20,13 @@ public class userManagementTestCases extends beforeAfterTestRun {
 
     @BeforeClass
     public void initLoginMethodsAndLoginAsAdmin(){
-        this.lm = new loginMethods(super.driver);
+        this.lm = new loginMethods(driver);
         lm.enterCredentials(prop.getProperty("username"), prop.getProperty("password"));
     }
 
     @Test(priority = 0)
     public void searchByUsername(){
-        this.umm = new userManagementMethods(super.driver);
+        this.umm = new userManagementMethods(driver);
         umm.userSearchByUsername();
     }
 
