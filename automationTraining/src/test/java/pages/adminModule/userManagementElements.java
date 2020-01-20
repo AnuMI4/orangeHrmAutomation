@@ -17,7 +17,13 @@ public class userManagementElements {
     By btnSearch = By.className("searchbutton");
     By addNewEmployeeName = By.id("systemUser_employeeName_empName");
     By addNewUsername = By.id("systemUser_userName");
+    By addNewPassword = By.id("systemUser_password");
+    By confirmNewPassword = By.name("systemUser[confirmPassword]");
     By btnSave = By.id("btnSave");
+    public By saveUserSuccessMsg = By.xpath("//*[contains(text(),'Successfully Saved')]");
     By btnDelete = By.id("btnDelete");
+    By usersTable = By.id("resultTable");
+    By row = By.tagName("tr");
+    By column = By.tagName("td");
     //By userFionaCheckbox = By.xpath("//*[text()='"+prop.getProperty("usernameFiona2")+"']/preceding-sibling::input[@type='checkbox']");
 }

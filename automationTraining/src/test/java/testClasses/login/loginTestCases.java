@@ -28,6 +28,7 @@ public class loginTestCases extends beforeAfterTestRun {
     @Test(priority = 0)
     public void enterCorrectCredentials(){
         lm.enterCredentials(prop.getProperty("username"), prop.getProperty("password"));
+        Assert.assertEquals(driver.getCurrentUrl(), prop.getProperty("dashboard"));
     }
 
     @Test(priority = 1)
