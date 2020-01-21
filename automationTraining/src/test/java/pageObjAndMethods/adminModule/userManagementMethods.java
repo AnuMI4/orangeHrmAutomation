@@ -1,7 +1,6 @@
-package pages.adminModule;
+package pageObjAndMethods.adminModule;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import config.getConfig;
 import org.openqa.selenium.WebElement;
-import pages.general.generalMethods;
+import pageObjAndMethods.general.generalMethods;
 
 public class userManagementMethods {
 
@@ -50,13 +49,13 @@ public class userManagementMethods {
     public void userSearchByEmployeeName(){
         driver.get(prop.getProperty("adminViewSystemsUsersPage"));
         driver.findElement(ume.btnReset).click();
-        driver.findElement(ume.employeeName).sendKeys(prop.getProperty("employeeNameFiona"));
+        driver.findElement(ume.employeeName).sendKeys(prop.getProperty("employeeName"));
         driver.findElement(ume.btnSearch).click();
     }
 
     public void userAdd(){
         driver.get(prop.getProperty("addNewUserPage"));
-        driver.findElement(ume.addNewEmployeeName).sendKeys(prop.getProperty("employeeNameFiona"));
+        driver.findElement(ume.addNewEmployeeName).sendKeys(prop.getProperty("employeeName"));
 
         String randomGenerator = "1234567890";
         generatedString = "user "+gm.generateString(new Random(), randomGenerator, 10);
@@ -70,6 +69,18 @@ public class userManagementMethods {
 
     public void userDelete(){
         driver.get(prop.getProperty("adminViewSystemsUsersPage"));
-        System.out.println(generatedString);
+//        System.out.println(generatedString);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        driver.findElement(By.xpath("//a[contains(@href,'fiona.grace')]//preceding::input")).click();
+        //a[text()='fiona.grace']/preceding::tr[.//a[@class='subtitle']])
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

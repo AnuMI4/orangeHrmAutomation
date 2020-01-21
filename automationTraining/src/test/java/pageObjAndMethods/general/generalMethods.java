@@ -1,4 +1,4 @@
-package pages.general;
+package pageObjAndMethods.general;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package pages.loginPage;
+package pageObjAndMethods.loginPage;
 
 import config.getConfig;
 import org.openqa.selenium.WebDriver;

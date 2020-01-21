@@ -1,13 +1,13 @@
-package testClasses.adminModule;
+package testClasses.adminModule.users;
 
 import java.util.Properties;
 import config.getConfig;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.adminModule.userManagementMethods;
-import pages.adminModule.userManagementElements;
-import pages.loginPage.loginMethods;
+import pageObjAndMethods.adminModule.userManagementMethods;
+import pageObjAndMethods.adminModule.userManagementElements;
+import pageObjAndMethods.loginPage.loginMethods;
 import setup.beforeAfterTestRun;
 
 public class userManagementTestCases extends beforeAfterTestRun {
@@ -29,7 +29,7 @@ public class userManagementTestCases extends beforeAfterTestRun {
         this.umm = new userManagementMethods(driver);
     }
 
-    @Test(priority = 1)
+    @Test(enabled = false)
     public void searchByUsername(){
         umm.userSearchByUsername();
     }
@@ -39,7 +39,7 @@ public class userManagementTestCases extends beforeAfterTestRun {
 
     }
 
-    @Test(priority = 2)
+    @Test(enabled = false)
     public void searchByEmployeeName(){
         umm.userSearchByEmployeeName();
     }
@@ -49,13 +49,13 @@ public class userManagementTestCases extends beforeAfterTestRun {
 
     }
 
-    @Test(priority = 0)
+    @Test(enabled = false)
     public void addEmployee(){
         umm.userAdd();
         Assert.assertTrue(driver.findElement(ume.saveUserSuccessMsg).isDisplayed());
     }
 
-    @Test(priority = 3)
+    @Test(priority = 0)
     public void deleteEmployee(){
         umm.userDelete();
     }

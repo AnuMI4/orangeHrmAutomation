@@ -4,8 +4,8 @@ import config.getConfig;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.loginPage.loginMethods;
-import pages.loginPage.loginElements;
+import pageObjAndMethods.loginPage.loginMethods;
+import pageObjAndMethods.loginPage.loginElements;
 import java.util.Properties;
 import setup.beforeAfterTestRun;
 

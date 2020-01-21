@@ -1,4 +1,4 @@
-package pages.loginPage;
+package pageObjAndMethods.loginPage;
 
 import org.openqa.selenium.By;
 
