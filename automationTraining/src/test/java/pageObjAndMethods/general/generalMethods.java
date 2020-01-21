@@ -10,6 +10,5 @@ public class generalMethods {
             text[i] = characters.charAt(random.nextInt(characters.length()));
         }
         return new String(text);
-
     }
 }

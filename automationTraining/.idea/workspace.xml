@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ebc109-cff0-457c-ac58-4066074fdb98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/JobTitlePageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/jobTitlePageMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/job/jobTitlesTestCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/job/payGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/adminModule/userManagementElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/adminModule/userManagementMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/general/generalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/general/generalMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/loginPage/loginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/loginPage/loginElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/loginPage/loginMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/loginPage/loginMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/JobTitlePageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/jobTitlePageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/jobTitlePageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/jobObjAndMethods/jobTitlePageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementObjAndMethods/userManagementElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/adminModule/userManagementObjAndMethods/userManagementMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/general/generalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjAndMethods/general/generalMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/setup/getDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/getDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/userManagementTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/users/userManagementTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testClasses/login/loginTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClasses/login/loginTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/job/jobTitlesTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/job/jobTitlesTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/users/userManagementTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testClasses/adminModule/users/userManagementTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/automationTraining.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/config/getConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/getConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/extentReportListener/extentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/extentReportListener/extentReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/adminModule/userManagementElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/adminModule/userManagementMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/general/generalMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/loginPage/loginElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/loginPage/loginMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjAndMethods/adminModule/userManagementElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjAndMethods/adminModule/userManagementElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjAndMethods/adminModule/userManagementMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjAndMethods/adminModule/userManagementMethods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/setup/getDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/setup/getDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testClasses/adminModule/userManagementTestCases.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testClasses/login/loginTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testClasses/login/loginTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testClasses/adminModule/users/userManagementTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testClasses/adminModule/users/userManagementTestCases.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,10 +189,10 @@
     </state>
     <state x="440" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579457713385" />
     <state x="587" y="304" width="515" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1053@0.0.1920.1053" timestamp="1579582892991" />
-    <state x="739" y="419" width="292" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579582831556">
-      <screen x="0" y="0" width="1920" height="1053" />
+    <state x="554" y="358" width="292" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579624929169">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="554" y="358" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1578835656157" />
+    <state x="554" y="358" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1579624929169" />
     <state x="739" y="419" width="292" height="212" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1579582831556" />
     <state x="322" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578931360084">
       <screen x="0" y="0" width="1440" height="900" />
@@ -210,31 +202,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579427922855" />
-    <state width="1874" height="280" key="GridCell.Tab.0.bottom" timestamp="1579611462898">
-      <screen x="0" y="0" width="1920" height="1053" />
+    <state x="308" y="55" key="CommitChangelistDialog2" timestamp="1579625989275">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579554959629" />
+    <state x="308" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579625989275" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1579639137576">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579639137576" />
     <state width="1874" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1579611462898" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578946912544" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1579428114082" />
-    <state width="1874" height="280" key="GridCell.Tab.0.center" timestamp="1579611462897">
-      <screen x="0" y="0" width="1920" height="1053" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1579639137574">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579554959627" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579639137574" />
     <state width="1874" height="280" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1579611462897" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578946912543" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1579428114080" />
-    <state width="1874" height="280" key="GridCell.Tab.0.left" timestamp="1579611462897">
-      <screen x="0" y="0" width="1920" height="1053" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1579639137573">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579554959627" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579639137573" />
     <state width="1874" height="280" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1579611462896" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578946912542" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1579428114079" />
-    <state width="1874" height="280" key="GridCell.Tab.0.right" timestamp="1579611462897">
-      <screen x="0" y="0" width="1920" height="1053" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1579639137575">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579554959628" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579639137575" />
     <state width="1874" height="280" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1579611462897" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578946912543" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1579428114081" />

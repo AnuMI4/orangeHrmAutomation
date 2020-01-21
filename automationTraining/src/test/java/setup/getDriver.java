@@ -19,7 +19,7 @@ public class getDriver {
     public WebDriver retDriver(){
 
         if(prop.getProperty("browser").equals("chrome")){
-            System.setProperty("webdriver.chrome.driver", "/home/anummirza/Desktop/chromedriver");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")  + File.separator + "chromedriver");
             driver = new ChromeDriver();
         }
 
