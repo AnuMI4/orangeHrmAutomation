@@ -8,6 +8,7 @@ public class beforeAfterTestRun {
 
     getDriver gd;
     public static WebDriver driver;
+    public String s;
 
     @BeforeSuite
     public void initDriver(){

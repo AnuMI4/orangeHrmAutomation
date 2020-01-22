@@ -11,17 +11,28 @@ public class jobTitlePageMethods {
     Properties prop;
     jobTitlePageElements jtpe;
     userManagementElements ume;
+    public static String newJobTitle;
 
     public jobTitlePageMethods(WebDriver driver){
         this.driver = driver;
         this.prop = getConfig.getProperty();
-        this.jtpe =new jobTitlePageElements();
+        this.jtpe = new jobTitlePageElements();
         this.ume = new userManagementElements();
     }
 
     public void addJobTitle(){
         driver.get(prop.getProperty("addJobTitlePage"));
         driver.findElement(jtpe.jobTitle).sendKeys(prop.getProperty("jobTitle"));
-        driver.findElement(ume.btnSave).click();
+        driver.findElement(jtpe.saveBtn).click();
     }
+
+    public void deleteJobTitle(){
+        driver.get(prop.getProperty("jobTitlePage"));
+        newJobTitle = prop.getProperty("jobTitle");
+        jtpe = new jobTitlePageElements();
+        driver.findElement(jtpe.jobTitleCheckBox).click();
+        driver.findElement(ume.btnDelete).click();
+        driver.findElement(ume.deleteRecordModalBtnOk).click();
+    }
+
 }

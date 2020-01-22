@@ -50,11 +50,6 @@ public class userManagementTestCases extends beforeAfterTestRun {
     @Test(priority = 2)
     public void searchByUserRole(){
         umm.userSearchByRole();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         List<WebElement> rows = driver.findElement(ume.usersTable).findElements(ume.row);
         System.out.println(rows.size());
 

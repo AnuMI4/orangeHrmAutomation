@@ -10,8 +10,8 @@
         <classes>
             <class name="testClasses.login.loginTestCases"/>
             <class name="testClasses.adminModule.users.userManagementTestCases"/>
-<!--            <class name="testClasses.adminModule.job.jobTitlesTestCases"/>-->
-<!--            <class name="testClasses.adminModule.job.payGrades"/>-->
+            <class name="testClasses.adminModule.job.jobTitlesTestCases"/>
+            <class name="testClasses.adminModule.job.payGrades"/>
         </classes>
     </test>
 </suite>

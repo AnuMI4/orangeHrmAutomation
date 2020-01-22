@@ -24,11 +24,11 @@ public class userManagementElements {
     By confirmNewPassword = By.name("systemUser[confirmPassword]");
     public By btnSave = By.className("addbutton");
     public By saveUserSuccessMsg = By.xpath("//*[contains(text(),'Successfully Saved')]");
-    By btnDelete = By.id("btnDelete");
+    public By btnDelete = By.id("btnDelete");
     public By usersTable = By.tagName("tbody");
     public By row = By.tagName("tr");
     public By column = By.tagName("td");
     By userCheckbox = By.xpath("//a[contains(text(), '"+ userManagementMethods.generatedNewUser+"')]/../preceding-sibling::td/input[@type='checkbox']");
-    By deleteRecordModalBtnOk = By.id("dialogDeleteBtn");
+    public By deleteRecordModalBtnOk = By.id("dialogDeleteBtn");
     public By deletedRecordUserSuccessMsg = By.xpath("//*[contains(text(),'Successfully Deleted')]");
 }

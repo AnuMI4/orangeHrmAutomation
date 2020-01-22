@@ -4,6 +4,7 @@ import config.getConfig;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pageObjAndMethods.adminModule.jobObjAndMethods.jobTitlePageMethods;
 import pageObjAndMethods.loginPage.loginMethods;
 import pageObjAndMethods.loginPage.loginElements;
 import java.util.Properties;
@@ -14,6 +15,7 @@ public class loginTestCases extends beforeAfterTestRun {
     loginMethods lm;
     loginElements le;
     Properties prop;
+    jobTitlePageMethods jtpm;
 
     public loginTestCases(){
         this.prop = getConfig.getProperty();
@@ -48,6 +50,5 @@ public class loginTestCases extends beforeAfterTestRun {
         lm.enterCredentials("IncorrectUsername", "IncorrectPassword");
         Assert.assertEquals(driver.findElement(le.invalidCredMsg).getText(), "Invalid credentials");
     }
-
 
 }

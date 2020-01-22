@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import config.getConfig;
-import pageObjAndMethods.adminModule.userManagementObjAndMethods.userManagementElements;
 import pageObjAndMethods.general.generalMethods;
 
 public class userManagementMethods {
@@ -67,20 +66,9 @@ public class userManagementMethods {
 
     public void userDelete(){
         driver.get(prop.getProperty("adminViewSystemsUsersPage"));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         this.ume = new userManagementElements();
         driver.findElement(ume.userCheckbox).click();
         driver.findElement(ume.btnDelete).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         driver.findElement(ume.deleteRecordModalBtnOk).click();
     }
 }
