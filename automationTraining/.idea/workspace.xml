@@ -183,10 +183,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579427922855" />
-    <state x="565" y="124" width="781" height="801" key="CommitChangelistDialog2" timestamp="1579667652482">
+    <state x="565" y="124" width="781" height="801" key="CommitChangelistDialog2" timestamp="1579667689169">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
-    <state x="565" y="124" width="781" height="801" key="CommitChangelistDialog2/0.0.1920.1053@0.0.1920.1053" timestamp="1579667652482" />
+    <state x="565" y="124" width="781" height="801" key="CommitChangelistDialog2/0.0.1920.1053@0.0.1920.1053" timestamp="1579667689169" />
     <state x="183" y="89" width="1538" height="868" key="DiffContextDialog" timestamp="1579667640622">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
@@ -223,11 +223,19 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="113" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1579420496084" />
+    <state x="555" y="262" width="802" height="524" key="Vcs.Push.Dialog.v2" timestamp="1579667697216">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="555" y="262" width="802" height="524" key="Vcs.Push.Dialog.v2/0.0.1920.1053@0.0.1920.1053" timestamp="1579667697216" />
     <state x="501" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1579667386397">
       <screen x="0" y="0" width="1920" height="1053" />
     </state>
     <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579547107136" />
     <state x="501" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1579667386397" />
     <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1579104691528" />
+    <state x="765" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579667744215">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="765" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1053@0.0.1920.1053" timestamp="1579667744215" />
   </component>
 </project>
