@@ -1,15 +1,11 @@
-package pageObjAndMethods.adminModule;
+package pageObjAndMethods.adminModule.userManagementObjAndMethods;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import java.util.List;
-import java.util.Properties;
-import java.util.Random;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
-
 import config.getConfig;
-import org.openqa.selenium.WebElement;
+import pageObjAndMethods.adminModule.userManagementObjAndMethods.userManagementElements;
 import pageObjAndMethods.general.generalMethods;
 
 public class userManagementMethods {
@@ -18,7 +14,7 @@ public class userManagementMethods {
     userManagementElements ume;
     Properties prop;
     generalMethods gm;
-    public String generatedString;
+    public static String generatedNewUser;
 
     public userManagementMethods(WebDriver driver){
         this.driver = driver;
@@ -28,22 +24,10 @@ public class userManagementMethods {
     }
 
     public void userSearchByUsername(){
-
         driver.get(prop.getProperty("adminViewSystemsUsersPage"));
         driver.findElement(ume.btnReset).click();
-        driver.findElement(ume.username).sendKeys(generatedString);
+        driver.findElement(ume.username).sendKeys(generatedNewUser);
         driver.findElement(ume.btnSearch).click();
-
-        List<WebElement> rows = driver.findElement(ume.usersTable).findElements(ume.row);
-        System.out.println(rows.size());
-
-        for (WebElement row : rows) {
-            List<WebElement> cols = row.findElements(ume.column);
-            for (WebElement col : cols) {
-                System.out.print(col.getText() + "\t");
-            }
-            System.out.println();
-        }
     }
 
     public void userSearchByEmployeeName(){
@@ -53,14 +37,28 @@ public class userManagementMethods {
         driver.findElement(ume.btnSearch).click();
     }
 
+    public void userSearchByRole() {
+        driver.get(prop.getProperty("adminViewSystemsUsersPage"));
+        driver.findElement(ume.btnReset).click();
+        driver.findElement(ume.userRole).sendKeys(prop.getProperty("userRole"));
+        driver.findElement(ume.btnSearch).click();
+    }
+
+    public void userSearchByStatus() {
+        driver.get(prop.getProperty("adminViewSystemsUsersPage"));
+        driver.findElement(ume.btnReset).click();
+        driver.findElement(ume.userStatus).sendKeys(prop.getProperty("status"));
+        driver.findElement(ume.btnSearch).click();
+    }
+
     public void userAdd(){
         driver.get(prop.getProperty("addNewUserPage"));
         driver.findElement(ume.addNewEmployeeName).sendKeys(prop.getProperty("employeeName"));
 
         String randomGenerator = "1234567890";
-        generatedString = "user "+gm.generateString(new Random(), randomGenerator, 10);
+        generatedNewUser = "user "+gm.generateString(new Random(), randomGenerator, 10);
 
-        driver.findElement(ume.addNewUsername).sendKeys(generatedString);
+        driver.findElement(ume.addNewUsername).sendKeys(generatedNewUser);
         driver.findElement(ume.addNewPassword).sendKeys(prop.getProperty("userPassword"));
         driver.findElement(ume.confirmNewPassword).sendKeys(prop.getProperty("userPassword"));
         driver.findElement(ume.btnSave).click();
@@ -69,18 +67,20 @@ public class userManagementMethods {
 
     public void userDelete(){
         driver.get(prop.getProperty("adminViewSystemsUsersPage"));
-//        System.out.println(generatedString);
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        driver.findElement(By.xpath("//a[contains(@href,'fiona.grace')]//preceding::input")).click();
-        //a[text()='fiona.grace']/preceding::tr[.//a[@class='subtitle']])
+        this.ume = new userManagementElements();
+        driver.findElement(ume.userCheckbox).click();
+        driver.findElement(ume.btnDelete).click();
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        driver.findElement(ume.deleteRecordModalBtnOk).click();
     }
 }
